@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☠</title>
+</head>
+<body>
+    <div>
+        <video id="video" autoplay onended="switch_to_image()" class='background_image'>
+            <source src="/Videos/Cena_1_1.mp4" type="video/mp4">
+        </video>
+        <div id="imagem" style="display: none;" class="home_screen">
+            <img src="/Imagens/Cena_1_1.jpg" class="background_image">
+            <p class='choices'>A porta esta fechada<br> Voce sente como se tivesse alguem do outro lado da porta<br> O que voce escolhe?</p>
+            <button id = 'button_next_scene' class = 'choice_button_right' onclick="window.location.href='/Paginas/Cena_1_1.html'">Porta a Direita</button>
+            <button id = 'button_next_scene' class = 'choice_button_middle' onclick="window.location.href='/Paginas/Cena_1_2.html'">Reto em direção ao escuro</button>
+            <button id = 'button_next_scene' class = 'choice_button_left' onclick="window.location.href='/Paginas/Cena_1_3.html'">Buraco na Parede</button>
+        </div> 
+    </div>
+</body>
+</html>

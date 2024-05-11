@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☠</title>
+</head>
+<body>
+    <div>
+        <video id="video" autoplay onended="switch_to_image()" class='background_image'>
+            <source src="/Videos/Cena_1_2.mp4" type="video/mp4">
+        </video>
+        <div id="imagem" style="display: none;" class="home_screen">
+            <img src="/Imagens/Cena_1_2_3.jpg" class="background_image">
+            <p class='choices'>Andando em direção ao escuro passando das duas portas 
+                <br>Seguindo por algum tempo começa a aparecer a silhueta de uma porta ao fundo
+                <br>Chegando na porta uma floresta escura  com uma lâmpada logo acima da porta, 
+                <br>Não dá para ver muito longe
+                <br>O que voce escolhe?</p>
+            <button id = 'button_next_scene' class = 'choice_button_left' onclick="window.location.href='/Paginas/Cena_1_2_1.html'">Segiuir em direção a floresta</button>
+            <button id = 'button_next_scene' class = 'choice_button_right' onclick="window.location.href='/Paginas/Cena_1_2_2.html'">Voltar</button>
+        </div> 
+    </div>
+</body>
+</html>
